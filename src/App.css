@@ -1,0 +1,130 @@
+
+/* Home Page */
+.home-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  margin: 2rem 5rem;
+}
+
+.center {
+  text-align: center;
+}
+
+.home-div-items {
+  width: 100%;
+}
+
+.announcements {
+  text-align: end;
+}
+
+.text-noty {
+  padding: 1.2rem;
+  background-color: aliceblue;
+  color: blue;
+  font-size: 12px;
+  border-radius: 2%;
+  margin: 0.2rem;
+}
+
+.color {
+  color: chocolate;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.solution-writting{
+  width: 20rem;
+}
+
+.box-shadow {
+  padding: 0.5rem;
+  border-radius: 0.2rem;
+  margin: 1rem;
+  -webkit-box-shadow: -1px 2px 5px 5px chocolate;
+  -moz-box-shadow: -1px 2px 5px 5px chocolate;
+  box-shadow: -1px 2px 5px 5px chocolate;
+}
+
+/* Job Section */
+.job-div{
+  width: 100%;
+  display: grid;
+  grid-template-columns: 5rem 1fr 3fr 1fr 5rem;
+  margin: 5rem;
+}
+
+.job-menu-items{
+  display: grid;
+  grid-column: 2/3;
+}
+
+.card-width{
+  margin: 3rem;
+  width: 50%;
+  padding: 1rem;
+  height: 10rem;
+}
+
+.job-announcements{
+  text-align: center;
+  font-size: 20px;
+  color: chocolate;
+}
+
+
+
+/* Payment section */
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: 2rem;
+}
+
+
+@media (min-width: 768px) {
+  .container {
+    display: grid;
+    grid-template-columns:  1fr 3fr 1fr ;
+    grid-template-rows: auto 1fr auto;
+  }
+}
+
+main {
+  flex: 1;
+  padding: 20px;
+  border: 1px chocolate solid;
+  border-radius: 1rem;
+  margin: 1rem;
+}
+
+nav {
+  padding: 20px;
+}
+ 
+aside {
+  padding: 20px;
+}
+
+.selected{
+  background-color: chocolate;
+  color: white;
+}
+
+/* Offer letter & certificate */
+.center-container{
+  height: 86vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* @media (m-width:1080px) {
+  .container {
+    display: grid;
+    grid-template-columns: 2fr 3fr 1fr ;
+  }
+} */
